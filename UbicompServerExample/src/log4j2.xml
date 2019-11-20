@@ -2,8 +2,8 @@
 <Configuration status="info">
 	<Appenders>				
 	    <!-- LOG -->
-		<RollingFile name="LogFile" fileName="webapps/Ubicomp/log.log"
-			filePattern="webapps/webapps/Ubicomp/logs/Ubicomp-%d{yyyy}-%i.log.gz">
+		<RollingFile name="LogFile" fileName="webapps/UbicompServerExample/log.log"
+			filePattern="webapps/webapps/UbicompServerExample/logs/Ubicomp-%d{yyyy}-%i.log.gz">
 			<PatternLayout
 				pattern="%n%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level %-30l %logger{36} ### %msg"
 				header="-- UBICOMP EXAMPLE --" />
